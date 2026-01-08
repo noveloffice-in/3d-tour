@@ -22,6 +22,23 @@ python3 -m http.server 8000
 
 or use any static server you prefer (e.g., `live-server`, `http-server`).
 
+**Homepage tour list (dynamic)**
+
+The homepage (`/index.html`) renders its tour links from a generated manifest file:
+- `assets/data/tours.json`
+
+Because this repo is hosted as static files (GitHub Pages), there is no server-side runtime to scan directories on each request. Instead, we generate the manifest at build/dev time.
+
+When you add a new tour folder at the repo root (a folder containing `gginfo.json` and `index.html`), run:
+
+```bash
+python3 assets/scripts/generate_tours_manifest.py
+```
+
+Then commit the updated `assets/data/tours.json`.
+
+CI enforcement: A GitHub Action verifies that `assets/data/tours.json` is up-to-date on PRs and on pushes to `main`.
+
 **GitHub Pages**
 - This repository is public so GitHub Pages can serve the static tours. All assets served from GitHub Pages are publicly accessible; do not store private or sensitive data in this repo.
 

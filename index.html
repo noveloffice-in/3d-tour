@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>3D Tour</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="assets/css/style.css" />
+	</head>
+	<body>
+		<header class="site-header" role="banner">
+			<div class="container site-header__inner">
+				<a class="brand" href="#" aria-label="Home">
+					<!-- <span class="brand__mark" aria-hidden="true"></span> -->
+					<span class="brand__text">Novel Signature Homes</span>
+				</a>
+			</div>
+		</header>
+
+		<main class="page" role="main">
+			<div class="container page__inner">
+				<section class="tours" aria-label="Tours">
+					<h1 class="tours__title">Tours</h1>
+					<p class="tours__sub">Select a tour to open.</p>
+					<div id="tours-grid" class="tours__grid" aria-live="polite"></div>
+					<p id="tours-error" class="tours__error" hidden></p>
+				</section>
+			</div>
+		</main>
+
+		<footer class="site-footer" role="contentinfo">
+			<div class="container site-footer__inner">
+				<small class="copyright">© <span id="year"></span> Novel Signature Homes. All rights reserved.</small>
+			</div>
+		</footer>
+
+		<script src="assets/js/index.js" defer></script>
+	</body>
+</html>

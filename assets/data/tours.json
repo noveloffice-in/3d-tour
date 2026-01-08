@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-01-08T09:17:47.950949Z",
+  "count": 4,
+  "tours": [
+    {
+      "slug": "amherst",
+      "title": "Amherst",
+      "href": "amherst/",
+      "preview": "amherst/preview.jpg"
+    },
+    {
+      "slug": "potomac-large-house",
+      "title": "Potomac Large House",
+      "href": "potomac-large-house/",
+      "preview": "potomac-large-house/preview.jpg"
+    },
+    {
+      "slug": "potomac-small-house_a",
+      "title": "Potomac Small House A",
+      "href": "potomac-small-house_a/",
+      "preview": "potomac-small-house_a/preview.jpg"
+    },
+    {
+      "slug": "potomac-small-house_b",
+      "title": "Potomac Small House B",
+      "href": "potomac-small-house_b/",
+      "preview": "potomac-small-house_b/preview.jpg"
+    }
+  ]
+}

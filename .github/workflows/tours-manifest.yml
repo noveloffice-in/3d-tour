@@ -1,0 +1,32 @@
+name: Tours manifest
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  verify-manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Regenerate tours.json
+        run: python3 assets/scripts/generate_tours_manifest.py
+
+      - name: Verify working tree clean
+        run: |
+          if ! git diff --quiet; then
+            echo "assets/data/tours.json is out of date."
+            echo "Run: python3 assets/scripts/generate_tours_manifest.py"
+            echo "Then commit the updated assets/data/tours.json."
+            echo ""
+            git --no-pager diff
+            exit 1
+          fi
