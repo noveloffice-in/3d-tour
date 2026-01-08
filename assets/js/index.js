@@ -37,7 +37,7 @@
 					: `<div class="tour-card__img tour-card__img--fallback" aria-hidden="true"></div>`;
 
 				return `
-					<a class="tour-card" href="${href}">
+					<a class="tour-card" href="${href}" target="_blank" rel="noopener noreferrer">
 						<div class="tour-card__media">${media}</div>
 						<div class="tour-card__body">
 							<div class="tour-card__title">${title}</div>
