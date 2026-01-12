@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.8/20986
 // Filename: NSH-360 UI.ggsk
-// Generated 2026-01-06T19:10:45
+// Generated 2026-01-09T21:07:33
 
 function pano2vrSkin(player,base) {
 	player.addVariable('Room_visibility_1F', 2, false, { ignoreInState: 0  });
@@ -40055,7 +40055,7 @@ me._map_pin_active.style.transform=hs; });
 		el=me._svg_1=document.createElement('div');
 		els=me._svg_1__img=document.createElement('img');
 		els.className='ggskin ggskin_svg';
-		hs='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgaGVpZ2h0PSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KIDxwYXRoIGQ9Ik0yMSA1Yy0xLjExLS4zNS0yLjMzLS41LTMuNS0uNS0xLjk1IDAtNC4wNS40LTUuNSAxLjUtMS40NS0xLjEtMy41NS0xLjUtNS41LTEuNVMyLjQ1IDQuOSAxIDZ2MTQuNjVjMCAuMjUuMjUuNS41LjUuMSAwIC4xNS0uMDUuMjUtLjA1QzMuMSAyMC40NSA1LjA1IDIwIDYuNSAyMGMxLjk1IDAgNC4wNS40IDUuNSAxLjUgMS4zNS0uODUgMy44LTEuNSA1LjUtMS41IDEuNjUgMCAzLjM1LjMgNC43NSAxLjA1LjEuMDUuMTUuMDUuMjUuMD'+
+		hs='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KIDxwYXRoIGQ9Ik0yMSA1Yy0xLjExLS4zNS0yLjMzLS41LTMuNS0uNS0xLjk1IDAtNC4wNS40LTUuNSAxLjUtMS40NS0xLjEtMy41NS0xLjUtNS41LTEuNVMyLjQ1IDQuOSAxIDZ2MTQuNjVjMCAuMjUuMjUuNS41LjUuMSAwIC4xNS0uMDUuMjUtLjA1QzMuMSAyMC40NSA1LjA1IDIwIDYuNSAyMGMxLjk1IDAgNC4wNS40IDUuNSAxLjUgMS4zNS0uODUgMy44LTEuNSA1LjUtMS41IDEuNjUgMCAzLjM1LjMgNC43NSAxLjA1LjEuMDUuMTUuMDUuMjUuMD'+
 			'UuMjUgMCAuNS0uMjUuNS0uNVY2Yy0uNi0uNDUtMS4yNS0uNzUtMi0xem0wIDEzLjVjLTEuMS0uMzUtMi4zLS41LTMuNS0uNS0xLjcgMC00LjE1LjY1LTUuNSAxLjVWOGMxLjM1LS44NSAzLjgtMS41IDUuNS0xLjUgMS4yIDAgMi40LjE1IDMuNS41djExLjV6Ii8+Cjwvc3ZnPgo=';
 		me._svg_1__img.setAttribute('src',hs);
 		hs ='';
