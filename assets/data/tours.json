@@ -1,12 +1,18 @@
 {
-  "generatedAt": "2026-01-08T09:17:47.950949Z",
-  "count": 4,
+  "generatedAt": "2026-01-29T09:05:29.507379Z",
+  "count": 5,
   "tours": [
     {
       "slug": "amherst",
       "title": "Amherst",
       "href": "amherst/",
       "preview": "amherst/preview.jpg"
+    },
+    {
+      "slug": "heatherglen",
+      "title": "Heatherglen",
+      "href": "heatherglen/",
+      "preview": "heatherglen/preview.jpg"
     },
     {
       "slug": "potomac-large-house",
