@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-29T09:05:29.507379Z",
+  "generatedAt": "2026-02-10T12:07:52.463108Z",
   "count": 5,
   "tours": [
     {
@@ -12,7 +12,7 @@
       "slug": "heatherglen",
       "title": "Heatherglen",
       "href": "heatherglen/",
-      "preview": "heatherglen/preview.jpg"
+      "preview": null
     },
     {
       "slug": "potomac-large-house",
