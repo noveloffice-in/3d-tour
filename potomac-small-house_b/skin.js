@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.11/21010
 // Filename: NSH-360 UI.ggsk
-// Generated 2026-03-13T19:05:08
+// Generated 2026-03-18T15:59:14
 
 function pano2vrSkin(player,base) {
 	player.addVariable('Room_visibility_1F', 2, false, { ignoreInState: 0  });
@@ -29641,9 +29641,9 @@ function pano2vrSkin(player,base) {
 					hotspotTemplates['Capital lighting-Tara wall sconce'][i].ggEvent_changenode();
 				}
 			}
-			if (hotspotTemplates.hasOwnProperty('Visual comfort - Maverick ceiling fan')) {
-				for(var i = 0; i < hotspotTemplates['Visual comfort - Maverick ceiling fan'].length; i++) {
-					hotspotTemplates['Visual comfort - Maverick ceiling fan'][i].ggEvent_changenode();
+			if (hotspotTemplates.hasOwnProperty('Visual comfort - Maverick ceiling light')) {
+				for(var i = 0; i < hotspotTemplates['Visual comfort - Maverick ceiling light'].length; i++) {
+					hotspotTemplates['Visual comfort - Maverick ceiling light'][i].ggEvent_changenode();
 				}
 			}
 			if (hotspotTemplates.hasOwnProperty('Hudson Valley-Hanging light')) {
@@ -30162,9 +30162,9 @@ function pano2vrSkin(player,base) {
 					hotspotTemplates['Capital lighting-Tara wall sconce'][i].ggEvent_configloaded();
 				}
 			}
-			if (hotspotTemplates.hasOwnProperty('Visual comfort - Maverick ceiling fan')) {
-				for(var i = 0; i < hotspotTemplates['Visual comfort - Maverick ceiling fan'].length; i++) {
-					hotspotTemplates['Visual comfort - Maverick ceiling fan'][i].ggEvent_configloaded();
+			if (hotspotTemplates.hasOwnProperty('Visual comfort - Maverick ceiling light')) {
+				for(var i = 0; i < hotspotTemplates['Visual comfort - Maverick ceiling light'].length; i++) {
+					hotspotTemplates['Visual comfort - Maverick ceiling light'][i].ggEvent_configloaded();
 				}
 			}
 			if (hotspotTemplates.hasOwnProperty('Hudson Valley-Hanging light')) {
@@ -30675,9 +30675,9 @@ console.log(`UI Mode Set: ${player.getVariableValue("ui_mode")}`);
 					hotspotTemplates['Capital lighting-Tara wall sconce'][i].ggEvent_varchanged_Desktop();
 				}
 			}
-			if (hotspotTemplates.hasOwnProperty('Visual comfort - Maverick ceiling fan')) {
-				for(var i = 0; i < hotspotTemplates['Visual comfort - Maverick ceiling fan'].length; i++) {
-					hotspotTemplates['Visual comfort - Maverick ceiling fan'][i].ggEvent_varchanged_Desktop();
+			if (hotspotTemplates.hasOwnProperty('Visual comfort - Maverick ceiling light')) {
+				for(var i = 0; i < hotspotTemplates['Visual comfort - Maverick ceiling light'].length; i++) {
+					hotspotTemplates['Visual comfort - Maverick ceiling light'][i].ggEvent_varchanged_Desktop();
 				}
 			}
 			if (hotspotTemplates.hasOwnProperty('Hudson Valley-Hanging light')) {
@@ -31162,9 +31162,9 @@ console.log(`UI Mode Set: ${player.getVariableValue("ui_mode")}`);
 					hotspotTemplates['Capital lighting-Tara wall sconce'][i].ggEvent_varchanged_ProductNum();
 				}
 			}
-			if (hotspotTemplates.hasOwnProperty('Visual comfort - Maverick ceiling fan')) {
-				for(var i = 0; i < hotspotTemplates['Visual comfort - Maverick ceiling fan'].length; i++) {
-					hotspotTemplates['Visual comfort - Maverick ceiling fan'][i].ggEvent_varchanged_ProductNum();
+			if (hotspotTemplates.hasOwnProperty('Visual comfort - Maverick ceiling light')) {
+				for(var i = 0; i < hotspotTemplates['Visual comfort - Maverick ceiling light'].length; i++) {
+					hotspotTemplates['Visual comfort - Maverick ceiling light'][i].ggEvent_varchanged_ProductNum();
 				}
 			}
 			if (hotspotTemplates.hasOwnProperty('Hudson Valley-Hanging light')) {
@@ -31555,9 +31555,9 @@ console.log(`UI Mode Set: ${player.getVariableValue("ui_mode")}`);
 					hotspotTemplates['Capital lighting-Tara wall sconce'][i].ggEvent_varchanged_closeinfo();
 				}
 			}
-			if (hotspotTemplates.hasOwnProperty('Visual comfort - Maverick ceiling fan')) {
-				for(var i = 0; i < hotspotTemplates['Visual comfort - Maverick ceiling fan'].length; i++) {
-					hotspotTemplates['Visual comfort - Maverick ceiling fan'][i].ggEvent_varchanged_closeinfo();
+			if (hotspotTemplates.hasOwnProperty('Visual comfort - Maverick ceiling light')) {
+				for(var i = 0; i < hotspotTemplates['Visual comfort - Maverick ceiling light'].length; i++) {
+					hotspotTemplates['Visual comfort - Maverick ceiling light'][i].ggEvent_varchanged_closeinfo();
 				}
 			}
 			if (hotspotTemplates.hasOwnProperty('Hudson Valley-Hanging light')) {
@@ -31732,9 +31732,9 @@ console.log(`UI Mode Set: ${player.getVariableValue("ui_mode")}`);
 					hotspotTemplates['Capital lighting-Tara wall sconce'][i].ggEvent_varchanged_product_hotspot();
 				}
 			}
-			if (hotspotTemplates.hasOwnProperty('Visual comfort - Maverick ceiling fan')) {
-				for(var i = 0; i < hotspotTemplates['Visual comfort - Maverick ceiling fan'].length; i++) {
-					hotspotTemplates['Visual comfort - Maverick ceiling fan'][i].ggEvent_varchanged_product_hotspot();
+			if (hotspotTemplates.hasOwnProperty('Visual comfort - Maverick ceiling light')) {
+				for(var i = 0; i < hotspotTemplates['Visual comfort - Maverick ceiling light'].length; i++) {
+					hotspotTemplates['Visual comfort - Maverick ceiling light'][i].ggEvent_varchanged_product_hotspot();
 				}
 			}
 			if (hotspotTemplates.hasOwnProperty('Hudson Valley-Hanging light')) {
@@ -31889,9 +31889,9 @@ console.log(`UI Mode Set: ${player.getVariableValue("ui_mode")}`);
 					hotspotTemplates['Capital lighting-Tara wall sconce'][i].ggEvent_varchanged_ui_mode();
 				}
 			}
-			if (hotspotTemplates.hasOwnProperty('Visual comfort - Maverick ceiling fan')) {
-				for(var i = 0; i < hotspotTemplates['Visual comfort - Maverick ceiling fan'].length; i++) {
-					hotspotTemplates['Visual comfort - Maverick ceiling fan'][i].ggEvent_varchanged_ui_mode();
+			if (hotspotTemplates.hasOwnProperty('Visual comfort - Maverick ceiling light')) {
+				for(var i = 0; i < hotspotTemplates['Visual comfort - Maverick ceiling light'].length; i++) {
+					hotspotTemplates['Visual comfort - Maverick ceiling light'][i].ggEvent_varchanged_ui_mode();
 				}
 			}
 			if (hotspotTemplates.hasOwnProperty('Hudson Valley-Hanging light')) {
@@ -44905,7 +44905,7 @@ me._map_pin_active.style.transform=hs; });
 			};
 			me.__div = me._hudson_valleyhanging_light;
 	};
-	function SkinHotspotClass_visual_comfort_maverick_ceiling_fan(parentScope,hotspot) {
+	function SkinHotspotClass_visual_comfort_maverick_ceiling_light(parentScope,hotspot) {
 		var me=this;
 		var flag=false;
 		var hs='';
@@ -44919,8 +44919,8 @@ me._map_pin_active.style.transform=hs; });
 		me.findElements=function(id,regex) {
 			return skin.findElements(id,regex);
 		}
-		el=me._visual_comfort_maverick_ceiling_fan=document.createElement('div');
-		el.ggId="Visual comfort - Maverick ceiling fan";
+		el=me._visual_comfort_maverick_ceiling_light=document.createElement('div');
+		el.ggId="Visual comfort - Maverick ceiling light";
 		el.ggDx=-50;
 		el.ggDy=-10;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
@@ -44937,7 +44937,7 @@ me._map_pin_active.style.transform=hs; });
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
-		me._visual_comfort_maverick_ceiling_fan.ggIsActive=function() {
+		me._visual_comfort_maverick_ceiling_light.ggIsActive=function() {
 			return player.getCurrentNode()==this.ggElementNodeId();
 		}
 		el.ggElementNodeId=function() {
@@ -44951,7 +44951,7 @@ me._map_pin_active.style.transform=hs; });
 				}
 			}
 		}
-		me._visual_comfort_maverick_ceiling_fan.logicBlock_visible = function() {
+		me._visual_comfort_maverick_ceiling_light.logicBlock_visible = function() {
 			var newLogicStateVisible;
 			if (
 				((player.getVariableValue('product_hotspot') == true))
@@ -44968,45 +44968,45 @@ me._map_pin_active.style.transform=hs; });
 			else {
 				newLogicStateVisible = -1;
 			}
-			if (me._visual_comfort_maverick_ceiling_fan.ggCurrentLogicStateVisible != newLogicStateVisible) {
-				me._visual_comfort_maverick_ceiling_fan.ggCurrentLogicStateVisible = newLogicStateVisible;
-				me._visual_comfort_maverick_ceiling_fan.style.transition='';
-				if (me._visual_comfort_maverick_ceiling_fan.ggCurrentLogicStateVisible == 0) {
-					me._visual_comfort_maverick_ceiling_fan.style.visibility=(Number(me._visual_comfort_maverick_ceiling_fan.style.opacity)>0||!me._visual_comfort_maverick_ceiling_fan.style.opacity)?'inherit':'hidden';
-					me._visual_comfort_maverick_ceiling_fan.ggVisible=true;
+			if (me._visual_comfort_maverick_ceiling_light.ggCurrentLogicStateVisible != newLogicStateVisible) {
+				me._visual_comfort_maverick_ceiling_light.ggCurrentLogicStateVisible = newLogicStateVisible;
+				me._visual_comfort_maverick_ceiling_light.style.transition='';
+				if (me._visual_comfort_maverick_ceiling_light.ggCurrentLogicStateVisible == 0) {
+					me._visual_comfort_maverick_ceiling_light.style.visibility=(Number(me._visual_comfort_maverick_ceiling_light.style.opacity)>0||!me._visual_comfort_maverick_ceiling_light.style.opacity)?'inherit':'hidden';
+					me._visual_comfort_maverick_ceiling_light.ggVisible=true;
 				}
-				else if (me._visual_comfort_maverick_ceiling_fan.ggCurrentLogicStateVisible == 1) {
-					me._visual_comfort_maverick_ceiling_fan.style.visibility="hidden";
-					me._visual_comfort_maverick_ceiling_fan.ggVisible=false;
+				else if (me._visual_comfort_maverick_ceiling_light.ggCurrentLogicStateVisible == 1) {
+					me._visual_comfort_maverick_ceiling_light.style.visibility="hidden";
+					me._visual_comfort_maverick_ceiling_light.ggVisible=false;
 				}
 				else {
-					me._visual_comfort_maverick_ceiling_fan.style.visibility="hidden";
-					me._visual_comfort_maverick_ceiling_fan.ggVisible=false;
+					me._visual_comfort_maverick_ceiling_light.style.visibility="hidden";
+					me._visual_comfort_maverick_ceiling_light.ggVisible=false;
 				}
 			}
 		}
-		me._visual_comfort_maverick_ceiling_fan.logicBlock_visible();
-		me._visual_comfort_maverick_ceiling_fan.onclick=function (e) {
+		me._visual_comfort_maverick_ceiling_light.logicBlock_visible();
+		me._visual_comfort_maverick_ceiling_light.onclick=function (e) {
 			player.triggerEvent('hsproxyclick', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
-		me._visual_comfort_maverick_ceiling_fan.ondblclick=function (e) {
+		me._visual_comfort_maverick_ceiling_light.ondblclick=function (e) {
 			player.triggerEvent('hsproxydblclick', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
-		me._visual_comfort_maverick_ceiling_fan.onmouseenter=function (e) {
+		me._visual_comfort_maverick_ceiling_light.onmouseenter=function (e) {
 			player.setActiveHotspot(me.hotspot);
-			me.elementMouseOver['visual_comfort_maverick_ceiling_fan']=true;
+			me.elementMouseOver['visual_comfort_maverick_ceiling_light']=true;
 			me._info_cb15.logicBlock_scaling();
 			me._info_ob15.logicBlock_scaling();
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
-		me._visual_comfort_maverick_ceiling_fan.onmouseleave=function (e) {
-			me.elementMouseOver['visual_comfort_maverick_ceiling_fan']=false;
+		me._visual_comfort_maverick_ceiling_light.onmouseleave=function (e) {
+			me.elementMouseOver['visual_comfort_maverick_ceiling_light']=false;
 			me._info_cb15.logicBlock_scaling();
 			me._info_ob15.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
 			player.setActiveHotspot(null);
 		}
-		me._visual_comfort_maverick_ceiling_fan.ggUpdatePosition=function (useTransition) {
+		me._visual_comfort_maverick_ceiling_light.ggUpdatePosition=function (useTransition) {
 		}
 		el=me._background_6=document.createElement('div');
 		el.ggId="Background 6";
@@ -45261,7 +45261,7 @@ me._map_pin_active.style.transform=hs; });
 		els.setAttribute('style',hs);
 		me._product_name15.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("<div class=\"ggmarkdown\"><p><strong>VISUAL COMFORT<\/strong><br \/>\nMaverick ceiling fan<\/p>\n<div>", params);
+			var hs = player._("<div class=\"ggmarkdown\"><p><strong>VISUAL COMFORT<\/strong><br \/>\nMaverick ceiling light<\/p>\n<div>", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -45376,7 +45376,7 @@ me._map_pin_active.style.transform=hs; });
 		me._product_image15.ggUpdatePosition=function (useTransition) {
 		}
 		me._background_6.appendChild(me._product_image15);
-		me._visual_comfort_maverick_ceiling_fan.appendChild(me._background_6);
+		me._visual_comfort_maverick_ceiling_light.appendChild(me._background_6);
 		el=me._info_cb15=document.createElement('div');
 		els=me._info_cb15__img=document.createElement('img');
 		els.className='ggskin ggskin_info_cb15';
@@ -45482,7 +45482,7 @@ me._map_pin_active.style.transform=hs; });
 		me._info_cb15.logicBlock_scaling = function() {
 			var newLogicStateScaling;
 			if (
-				((me.elementMouseOver['visual_comfort_maverick_ceiling_fan'] == true))
+				((me.elementMouseOver['visual_comfort_maverick_ceiling_light'] == true))
 			)
 			{
 				newLogicStateScaling = 0;
@@ -45554,7 +45554,7 @@ me._map_pin_active.style.transform=hs; });
 		}
 		me._info_cb15.ggUpdatePosition=function (useTransition) {
 		}
-		me._visual_comfort_maverick_ceiling_fan.appendChild(me._info_cb15);
+		me._visual_comfort_maverick_ceiling_light.appendChild(me._info_cb15);
 		el=me._info_ob15=document.createElement('div');
 		els=me._info_ob15__img=document.createElement('img');
 		els.className='ggskin ggskin_info_ob15';
@@ -45659,7 +45659,7 @@ me._map_pin_active.style.transform=hs; });
 		me._info_ob15.logicBlock_scaling = function() {
 			var newLogicStateScaling;
 			if (
-				((me.elementMouseOver['visual_comfort_maverick_ceiling_fan'] == true))
+				((me.elementMouseOver['visual_comfort_maverick_ceiling_light'] == true))
 			)
 			{
 				newLogicStateScaling = 0;
@@ -45822,9 +45822,9 @@ me._map_pin_active.style.transform=hs; });
 		}
 		me._info_ob15.ggUpdatePosition=function (useTransition) {
 		}
-		me._visual_comfort_maverick_ceiling_fan.appendChild(me._info_ob15);
-		me._visual_comfort_maverick_ceiling_fan.logicBlock_visible();
-		me.elementMouseOver['visual_comfort_maverick_ceiling_fan']=false;
+		me._visual_comfort_maverick_ceiling_light.appendChild(me._info_ob15);
+		me._visual_comfort_maverick_ceiling_light.logicBlock_visible();
+		me.elementMouseOver['visual_comfort_maverick_ceiling_light']=false;
 		me._background_6.logicBlock_size();
 		me._background_6.logicBlock_alpha();
 		me._close_info15.logicBlock_visible();
@@ -45836,7 +45836,7 @@ me._map_pin_active.style.transform=hs; });
 		me._info_ob15.logicBlock_scaling();
 		me._info_ob15.logicBlock_visible();
 			me.ggEvent_changenode=function() {
-				me._visual_comfort_maverick_ceiling_fan.logicBlock_visible();
+				me._visual_comfort_maverick_ceiling_light.logicBlock_visible();
 				me._background_6.logicBlock_size();
 				me._background_6.logicBlock_alpha();
 				me._close_info15.logicBlock_visible();
@@ -45847,7 +45847,7 @@ me._map_pin_active.style.transform=hs; });
 				me._info_ob15.logicBlock_visible();
 			};
 			me.ggEvent_configloaded=function() {
-				me._visual_comfort_maverick_ceiling_fan.logicBlock_visible();
+				me._visual_comfort_maverick_ceiling_light.logicBlock_visible();
 				me._background_6.logicBlock_size();
 				me._background_6.logicBlock_alpha();
 				me._close_info15.logicBlock_visible();
@@ -45873,7 +45873,7 @@ me._map_pin_active.style.transform=hs; });
 				me._close_info15.logicBlock_visible();
 			};
 			me.ggEvent_varchanged_product_hotspot=function() {
-				me._visual_comfort_maverick_ceiling_fan.logicBlock_visible();
+				me._visual_comfort_maverick_ceiling_light.logicBlock_visible();
 			};
 			me.ggEvent_varchanged_ui_mode=function() {
 				me._background_6.logicBlock_size();
@@ -45881,7 +45881,7 @@ me._map_pin_active.style.transform=hs; });
 				me._info_cb15.logicBlock_size();
 				me._info_ob15.logicBlock_size();
 			};
-			me.__div = me._visual_comfort_maverick_ceiling_fan;
+			me.__div = me._visual_comfort_maverick_ceiling_light;
 	};
 	function SkinHotspotClass_capital_lightingtara_wall_sconce(parentScope,hotspot) {
 		var me=this;
@@ -70437,9 +70437,9 @@ me._map_pin_active.style.transform=hs; });
 			}
 			hotspotTemplates[hotspot.skinid].push(hsinst);
 		} else
-			if (hotspot.skinid=='Visual comfort - Maverick ceiling fan') {
-				hotspot.skinid = 'Visual comfort - Maverick ceiling fan';
-				hsinst = new SkinHotspotClass_visual_comfort_maverick_ceiling_fan(me, hotspot);
+			if (hotspot.skinid=='Visual comfort - Maverick ceiling light') {
+				hotspot.skinid = 'Visual comfort - Maverick ceiling light';
+				hsinst = new SkinHotspotClass_visual_comfort_maverick_ceiling_light(me, hotspot);
 			if (!hotspotTemplates.hasOwnProperty(hotspot.skinid)) {
 				hotspotTemplates[hotspot.skinid] = [];
 			}
