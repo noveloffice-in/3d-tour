@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
-// Pano2VR 7.1.11/21010
+// Pano2VR 7.1.2/20913
 // Filename: NSH-360 UI.ggsk
-// Generated 2026-02-10T15:36:15
+// Generated 2026-05-14T21:02:12
 
 function pano2vrSkin(player,base) {
 	player.addVariable('Room_visibility_1F', 2, false, { ignoreInState: 0  });
@@ -2133,7 +2133,6 @@ function pano2vrSkin(player,base) {
 		el.ggCloneOffsetChanged = false;
 		el.ggWidth = 110;
 		el.ggHeight = 25;
-		el.ggSizeChanged = false;
 		el.ggUpdating = false;
 		el.ggFilter = [];
 		el.ggFilterHsSkinId = '';
@@ -2187,11 +2186,10 @@ function pano2vrSkin(player,base) {
 			};
 			if (me.ggTag) filter.push(me.ggTag);
 			filter=filter.sort();
-			if ((el.ggNumRows == curNumRows) && !el.ggSizeChanged && (el.ggInstances.length > 0) && (filter.length === el.ggCurrentFilter.length) && (filter.every(function(value, index) { return value === el.ggCurrentFilter[index] }) ) && (!me._cloner_1f_ph.ggCloneOffsetChanged)) {
+			if ((el.ggNumRows == curNumRows) && (el.ggInstances.length > 0) && (filter.length === el.ggCurrentFilter.length) && (filter.every(function(value, index) { return value === el.ggCurrentFilter[index] }) ) && (!me._cloner_1f_ph.ggCloneOffsetChanged)) {
 				me._cloner_1f_ph.ggUpdating = false;
 				return;
 			} else {
-				el.ggSizeChanged = false;
 				el.ggNumCols = 1;
 				el.ggNumRows = curNumRows;
 			var centerOffsetHor = 0;
@@ -3049,7 +3047,6 @@ function pano2vrSkin(player,base) {
 		el.ggCloneOffsetChanged = false;
 		el.ggWidth = 110;
 		el.ggHeight = 25;
-		el.ggSizeChanged = false;
 		el.ggUpdating = false;
 		el.ggFilter = [];
 		el.ggFilterHsSkinId = '';
@@ -3103,11 +3100,10 @@ function pano2vrSkin(player,base) {
 			};
 			if (me.ggTag) filter.push(me.ggTag);
 			filter=filter.sort();
-			if ((el.ggNumRows == curNumRows) && !el.ggSizeChanged && (el.ggInstances.length > 0) && (filter.length === el.ggCurrentFilter.length) && (filter.every(function(value, index) { return value === el.ggCurrentFilter[index] }) ) && (!me._cloner_2f_ph.ggCloneOffsetChanged)) {
+			if ((el.ggNumRows == curNumRows) && (el.ggInstances.length > 0) && (filter.length === el.ggCurrentFilter.length) && (filter.every(function(value, index) { return value === el.ggCurrentFilter[index] }) ) && (!me._cloner_2f_ph.ggCloneOffsetChanged)) {
 				me._cloner_2f_ph.ggUpdating = false;
 				return;
 			} else {
-				el.ggSizeChanged = false;
 				el.ggNumCols = 1;
 				el.ggNumRows = curNumRows;
 			var centerOffsetHor = 0;
@@ -3965,7 +3961,6 @@ function pano2vrSkin(player,base) {
 		el.ggCloneOffsetChanged = false;
 		el.ggWidth = 110;
 		el.ggHeight = 25;
-		el.ggSizeChanged = false;
 		el.ggUpdating = false;
 		el.ggFilter = [];
 		el.ggFilterHsSkinId = '';
@@ -4019,11 +4014,10 @@ function pano2vrSkin(player,base) {
 			};
 			if (me.ggTag) filter.push(me.ggTag);
 			filter=filter.sort();
-			if ((el.ggNumRows == curNumRows) && !el.ggSizeChanged && (el.ggInstances.length > 0) && (filter.length === el.ggCurrentFilter.length) && (filter.every(function(value, index) { return value === el.ggCurrentFilter[index] }) ) && (!me._cloner_3f_ph.ggCloneOffsetChanged)) {
+			if ((el.ggNumRows == curNumRows) && (el.ggInstances.length > 0) && (filter.length === el.ggCurrentFilter.length) && (filter.every(function(value, index) { return value === el.ggCurrentFilter[index] }) ) && (!me._cloner_3f_ph.ggCloneOffsetChanged)) {
 				me._cloner_3f_ph.ggUpdating = false;
 				return;
 			} else {
-				el.ggSizeChanged = false;
 				el.ggNumCols = 1;
 				el.ggNumRows = curNumRows;
 			var centerOffsetHor = 0;
@@ -16805,7 +16799,6 @@ function pano2vrSkin(player,base) {
 		el.ggCloneOffsetChanged = false;
 		el.ggWidth = 148;
 		el.ggHeight = 35;
-		el.ggSizeChanged = false;
 		el.ggUpdating = false;
 		el.ggFilter = [];
 		el.ggFilterHsSkinId = '';
@@ -16859,11 +16852,10 @@ function pano2vrSkin(player,base) {
 			};
 			if (me.ggTag) filter.push(me.ggTag);
 			filter=filter.sort();
-			if ((el.ggNumRows == curNumRows) && !el.ggSizeChanged && (el.ggInstances.length > 0) && (filter.length === el.ggCurrentFilter.length) && (filter.every(function(value, index) { return value === el.ggCurrentFilter[index] }) ) && (!me._cloner_1f.ggCloneOffsetChanged)) {
+			if ((el.ggNumRows == curNumRows) && (el.ggInstances.length > 0) && (filter.length === el.ggCurrentFilter.length) && (filter.every(function(value, index) { return value === el.ggCurrentFilter[index] }) ) && (!me._cloner_1f.ggCloneOffsetChanged)) {
 				me._cloner_1f.ggUpdating = false;
 				return;
 			} else {
-				el.ggSizeChanged = false;
 				el.ggNumCols = 1;
 				el.ggNumRows = curNumRows;
 			var centerOffsetHor = 0;
@@ -17721,7 +17713,6 @@ function pano2vrSkin(player,base) {
 		el.ggCloneOffsetChanged = false;
 		el.ggWidth = 148;
 		el.ggHeight = 35;
-		el.ggSizeChanged = false;
 		el.ggUpdating = false;
 		el.ggFilter = [];
 		el.ggFilterHsSkinId = '';
@@ -17775,11 +17766,10 @@ function pano2vrSkin(player,base) {
 			};
 			if (me.ggTag) filter.push(me.ggTag);
 			filter=filter.sort();
-			if ((el.ggNumRows == curNumRows) && !el.ggSizeChanged && (el.ggInstances.length > 0) && (filter.length === el.ggCurrentFilter.length) && (filter.every(function(value, index) { return value === el.ggCurrentFilter[index] }) ) && (!me._cloner_2f.ggCloneOffsetChanged)) {
+			if ((el.ggNumRows == curNumRows) && (el.ggInstances.length > 0) && (filter.length === el.ggCurrentFilter.length) && (filter.every(function(value, index) { return value === el.ggCurrentFilter[index] }) ) && (!me._cloner_2f.ggCloneOffsetChanged)) {
 				me._cloner_2f.ggUpdating = false;
 				return;
 			} else {
-				el.ggSizeChanged = false;
 				el.ggNumCols = 1;
 				el.ggNumRows = curNumRows;
 			var centerOffsetHor = 0;
@@ -18637,7 +18627,6 @@ function pano2vrSkin(player,base) {
 		el.ggCloneOffsetChanged = false;
 		el.ggWidth = 148;
 		el.ggHeight = 35;
-		el.ggSizeChanged = false;
 		el.ggUpdating = false;
 		el.ggFilter = [];
 		el.ggFilterHsSkinId = '';
@@ -18691,11 +18680,10 @@ function pano2vrSkin(player,base) {
 			};
 			if (me.ggTag) filter.push(me.ggTag);
 			filter=filter.sort();
-			if ((el.ggNumRows == curNumRows) && !el.ggSizeChanged && (el.ggInstances.length > 0) && (filter.length === el.ggCurrentFilter.length) && (filter.every(function(value, index) { return value === el.ggCurrentFilter[index] }) ) && (!me._cloner_3f.ggCloneOffsetChanged)) {
+			if ((el.ggNumRows == curNumRows) && (el.ggInstances.length > 0) && (filter.length === el.ggCurrentFilter.length) && (filter.every(function(value, index) { return value === el.ggCurrentFilter[index] }) ) && (!me._cloner_3f.ggCloneOffsetChanged)) {
 				me._cloner_3f.ggUpdating = false;
 				return;
 			} else {
-				el.ggSizeChanged = false;
 				el.ggNumCols = 1;
 				el.ggNumRows = curNumRows;
 			var centerOffsetHor = 0;
@@ -28188,7 +28176,7 @@ function pano2vrSkin(player,base) {
 					events: {
 						'onReady': function(event) {
 							me._showreel.ggApiPlayerReady = true;
-							if (player.getPlayerMuted()) me._showreel.ggApiPlayer.mute();
+							if (me.player.getPlayerMuted()) me._showreel.ggApiPlayer.mute();
 						},
 						'onStateChange': function(event) {
 							if (event.data == 0 && me._showreel.ggMediaEnded) {
@@ -33539,9 +33527,9 @@ console.log(`UI Mode Set: ${player.getVariableValue("ui_mode")}`);
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._wolfcrange_info_ph.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['wolfcrange_info_ph']=false;
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._wolfcrange_info_ph.ggUpdatePosition=function (useTransition) {
 		}
@@ -33885,9 +33873,9 @@ console.log(`UI Mode Set: ${player.getVariableValue("ui_mode")}`);
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._wolfcrange_info.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['wolfcrange_info']=false;
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._wolfcrange_info.ggUpdatePosition=function (useTransition) {
 		}
@@ -34224,9 +34212,9 @@ console.log(`UI Mode Set: ${player.getVariableValue("ui_mode")}`);
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._ht_node_dark_ph.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['ht_node_dark_ph']=false;
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._ht_node_dark_ph.ggUpdatePosition=function (useTransition) {
 		}
@@ -34619,9 +34607,9 @@ console.log(`UI Mode Set: ${player.getVariableValue("ui_mode")}`);
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._ht_node_ph.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['ht_node_ph']=false;
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._ht_node_ph.ggUpdatePosition=function (useTransition) {
 		}
@@ -35018,9 +35006,9 @@ console.log(`UI Mode Set: ${player.getVariableValue("ui_mode")}`);
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._ht_node_turn_ph.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['ht_node_turn_ph']=false;
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._ht_node_turn_ph.ggUpdatePosition=function (useTransition) {
 		}
@@ -35411,9 +35399,9 @@ console.log(`UI Mode Set: ${player.getVariableValue("ui_mode")}`);
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._ht_node_270_ph.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['ht_node_270_ph']=false;
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._ht_node_270_ph.ggUpdatePosition=function (useTransition) {
 		}
@@ -35804,9 +35792,9 @@ console.log(`UI Mode Set: ${player.getVariableValue("ui_mode")}`);
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._ht_node_180_ph.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['ht_node_180_ph']=false;
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._ht_node_180_ph.ggUpdatePosition=function (useTransition) {
 		}
@@ -36197,9 +36185,9 @@ console.log(`UI Mode Set: ${player.getVariableValue("ui_mode")}`);
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._ht_node_90_ph.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['ht_node_90_ph']=false;
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._ht_node_90_ph.ggUpdatePosition=function (useTransition) {
 		}
@@ -36555,9 +36543,9 @@ console.log(`UI Mode Set: ${player.getVariableValue("ui_mode")}`);
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._ht_node_0_ph.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['ht_node_0_ph']=false;
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._ht_node_0_ph.ggUpdatePosition=function (useTransition) {
 		}
@@ -37394,6 +37382,7 @@ me._map_pin_active_ph.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._ht_node_down.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			if (player.transitionsDisabled) {
 				me._downstairs.style.transition='none';
 			} else {
@@ -37403,7 +37392,6 @@ me._map_pin_active_ph.style.transform=hs; });
 			me._downstairs.style.visibility='hidden';
 			me.elementMouseOver['ht_node_down']=false;
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._ht_node_down.ggCurrentLogicStateVisible = -1;
 		me._ht_node_down.ggUpdateConditionTimer=function () {
@@ -37920,6 +37908,7 @@ me._map_pin_active_ph.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._ht_node_up.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			if (player.transitionsDisabled) {
 				me._upstairs.style.transition='none';
 			} else {
@@ -37929,7 +37918,6 @@ me._map_pin_active_ph.style.transform=hs; });
 			me._upstairs.style.visibility='hidden';
 			me.elementMouseOver['ht_node_up']=false;
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._ht_node_up.ggCurrentLogicStateVisible = -1;
 		me._ht_node_up.ggUpdateConditionTimer=function () {
@@ -38446,9 +38434,9 @@ me._map_pin_active_ph.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._ht_node_dark.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['ht_node_dark']=false;
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._ht_node_dark.ggUpdatePosition=function (useTransition) {
 		}
@@ -38940,9 +38928,9 @@ me._map_pin_active_ph.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._ht_node.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['ht_node']=false;
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._ht_node.ggUpdatePosition=function (useTransition) {
 		}
@@ -39444,9 +39432,9 @@ me._map_pin_active_ph.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._ht_node_turn.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['ht_node_turn']=false;
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._ht_node_turn.ggUpdatePosition=function (useTransition) {
 		}
@@ -39838,9 +39826,9 @@ me._map_pin_active_ph.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._ht_node_270.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['ht_node_270']=false;
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._ht_node_270.ggUpdatePosition=function (useTransition) {
 		}
@@ -40233,9 +40221,9 @@ me._map_pin_active_ph.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._ht_node_180.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['ht_node_180']=false;
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._ht_node_180.ggUpdatePosition=function (useTransition) {
 		}
@@ -40627,9 +40615,9 @@ me._map_pin_active_ph.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._ht_node_90.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['ht_node_90']=false;
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._ht_node_90.ggUpdatePosition=function (useTransition) {
 		}
@@ -40986,9 +40974,9 @@ me._map_pin_active_ph.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._ht_node_0.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['ht_node_0']=false;
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._ht_node_0.ggUpdatePosition=function (useTransition) {
 		}
@@ -41952,11 +41940,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._masterbath_3light.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['masterbath_3light']=false;
 			me._info_ob.logicBlock_scaling();
 			me._info_cb.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._masterbath_3light.ggUpdatePosition=function (useTransition) {
 		}
@@ -42930,11 +42918,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._washingmachine_dryer.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['washingmachine_dryer']=false;
 			me._info_ob0.logicBlock_scaling();
 			me._info_cb0.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._washingmachine_dryer.ggUpdatePosition=function (useTransition) {
 		}
@@ -43908,11 +43896,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._washingmachine.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['washingmachine']=false;
 			me._info_ob1.logicBlock_scaling();
 			me._info_cb1.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._washingmachine.ggUpdatePosition=function (useTransition) {
 		}
@@ -44886,11 +44874,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._kitchen_icemaker.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['kitchen_icemaker']=false;
 			me._info_ob2.logicBlock_scaling();
 			me._info_cb2.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._kitchen_icemaker.ggUpdatePosition=function (useTransition) {
 		}
@@ -45864,11 +45852,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._kitchen_refrigerator.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['kitchen_refrigerator']=false;
 			me._info_ob3.logicBlock_scaling();
 			me._info_cb3.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._kitchen_refrigerator.ggUpdatePosition=function (useTransition) {
 		}
@@ -46842,11 +46830,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._summer_kitchen_trash.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['summer_kitchen_trash']=false;
 			me._info_ob4.logicBlock_scaling();
 			me._info_cb4.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._summer_kitchen_trash.ggUpdatePosition=function (useTransition) {
 		}
@@ -47820,11 +47808,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._summer_kitchen_door.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['summer_kitchen_door']=false;
 			me._info_ob5.logicBlock_scaling();
 			me._info_cb5.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._summer_kitchen_door.ggUpdatePosition=function (useTransition) {
 		}
@@ -48798,11 +48786,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._summer_kitchen_grill.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['summer_kitchen_grill']=false;
 			me._info_ob6.logicBlock_scaling();
 			me._info_cb6.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._summer_kitchen_grill.ggUpdatePosition=function (useTransition) {
 		}
@@ -49776,11 +49764,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._summer_kitchen_tap.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['summer_kitchen_tap']=false;
 			me._info_ob7.logicBlock_scaling();
 			me._info_cb7.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._summer_kitchen_tap.ggUpdatePosition=function (useTransition) {
 		}
@@ -50748,11 +50736,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._summer_kitchen_sink.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['summer_kitchen_sink']=false;
 			me._info_ob8.logicBlock_scaling();
 			me._info_cb8.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._summer_kitchen_sink.ggUpdatePosition=function (useTransition) {
 		}
@@ -51720,11 +51708,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._bath5_shower.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['bath5_shower']=false;
 			me._info_ob9.logicBlock_scaling();
 			me._info_cb9.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._bath5_shower.ggUpdatePosition=function (useTransition) {
 		}
@@ -52692,11 +52680,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._bath5_light.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['bath5_light']=false;
 			me._info_ob10.logicBlock_scaling();
 			me._info_cb10.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._bath5_light.ggUpdatePosition=function (useTransition) {
 		}
@@ -53670,11 +53658,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._bath5_tap.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['bath5_tap']=false;
 			me._info_ob11.logicBlock_scaling();
 			me._info_cb11.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._bath5_tap.ggUpdatePosition=function (useTransition) {
 		}
@@ -54642,11 +54630,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._bath5_sink.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['bath5_sink']=false;
 			me._info_ob12.logicBlock_scaling();
 			me._info_cb12.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._bath5_sink.ggUpdatePosition=function (useTransition) {
 		}
@@ -55614,11 +55602,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._bath4_tub.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['bath4_tub']=false;
 			me._info_ob13.logicBlock_scaling();
 			me._info_cb13.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._bath4_tub.ggUpdatePosition=function (useTransition) {
 		}
@@ -56586,11 +56574,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._bath4_shower.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['bath4_shower']=false;
 			me._info_ob14.logicBlock_scaling();
 			me._info_cb14.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._bath4_shower.ggUpdatePosition=function (useTransition) {
 		}
@@ -57558,11 +57546,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._bath4_light.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['bath4_light']=false;
 			me._info_ob15.logicBlock_scaling();
 			me._info_cb15.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._bath4_light.ggUpdatePosition=function (useTransition) {
 		}
@@ -58536,11 +58524,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._bath4_tap.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['bath4_tap']=false;
 			me._info_ob16.logicBlock_scaling();
 			me._info_cb16.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._bath4_tap.ggUpdatePosition=function (useTransition) {
 		}
@@ -59508,11 +59496,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._bath4_sink.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['bath4_sink']=false;
 			me._info_ob17.logicBlock_scaling();
 			me._info_cb17.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._bath4_sink.ggUpdatePosition=function (useTransition) {
 		}
@@ -60480,11 +60468,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._bath3_shower.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['bath3_shower']=false;
 			me._info_ob18.logicBlock_scaling();
 			me._info_cb18.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._bath3_shower.ggUpdatePosition=function (useTransition) {
 		}
@@ -61452,11 +61440,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._bath3_light.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['bath3_light']=false;
 			me._info_ob19.logicBlock_scaling();
 			me._info_cb19.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._bath3_light.ggUpdatePosition=function (useTransition) {
 		}
@@ -62430,11 +62418,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._bath3_tap.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['bath3_tap']=false;
 			me._info_ob20.logicBlock_scaling();
 			me._info_cb20.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._bath3_tap.ggUpdatePosition=function (useTransition) {
 		}
@@ -63402,11 +63390,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._bath3_sink.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['bath3_sink']=false;
 			me._info_ob21.logicBlock_scaling();
 			me._info_cb21.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._bath3_sink.ggUpdatePosition=function (useTransition) {
 		}
@@ -64374,11 +64362,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._masterbath_hand_shower.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['masterbath_hand_shower']=false;
 			me._info_ob22.logicBlock_scaling();
 			me._info_cb22.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._masterbath_hand_shower.ggUpdatePosition=function (useTransition) {
 		}
@@ -65346,11 +65334,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._masterbath_shower.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['masterbath_shower']=false;
 			me._info_ob23.logicBlock_scaling();
 			me._info_cb23.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._masterbath_shower.ggUpdatePosition=function (useTransition) {
 		}
@@ -66318,11 +66306,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._masterbath_tub_filler.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['masterbath_tub_filler']=false;
 			me._info_ob24.logicBlock_scaling();
 			me._info_cb24.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._masterbath_tub_filler.ggUpdatePosition=function (useTransition) {
 		}
@@ -67290,11 +67278,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._masterbath_tub.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['masterbath_tub']=false;
 			me._info_ob25.logicBlock_scaling();
 			me._info_cb25.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._masterbath_tub.ggUpdatePosition=function (useTransition) {
 		}
@@ -68262,11 +68250,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._masterbath_light.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['masterbath_light']=false;
 			me._info_ob26.logicBlock_scaling();
 			me._info_cb26.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._masterbath_light.ggUpdatePosition=function (useTransition) {
 		}
@@ -69240,11 +69228,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._masterbath_tap.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['masterbath_tap']=false;
 			me._info_ob27.logicBlock_scaling();
 			me._info_cb27.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._masterbath_tap.ggUpdatePosition=function (useTransition) {
 		}
@@ -70212,11 +70200,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._masterbath_sink.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['masterbath_sink']=false;
 			me._info_ob28.logicBlock_scaling();
 			me._info_cb28.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._masterbath_sink.ggUpdatePosition=function (useTransition) {
 		}
@@ -71184,11 +71172,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._utility_tap.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['utility_tap']=false;
 			me._info_ob29.logicBlock_scaling();
 			me._info_cb29.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._utility_tap.ggUpdatePosition=function (useTransition) {
 		}
@@ -72156,11 +72144,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._utility_sink.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['utility_sink']=false;
 			me._info_ob30.logicBlock_scaling();
 			me._info_cb30.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._utility_sink.ggUpdatePosition=function (useTransition) {
 		}
@@ -73128,11 +73116,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._powder_light.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['powder_light']=false;
 			me._info_ob31.logicBlock_scaling();
 			me._info_cb31.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._powder_light.ggUpdatePosition=function (useTransition) {
 		}
@@ -74106,11 +74094,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._powder_tap.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['powder_tap']=false;
 			me._info_ob32.logicBlock_scaling();
 			me._info_cb32.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._powder_tap.ggUpdatePosition=function (useTransition) {
 		}
@@ -74407,18 +74395,18 @@ me._map_pin_active.style.transform=hs; });
 		el.ggSubElement = els;
 		el.ggId="Product image";
 		el.ggDx=-10;
-		el.ggDy=0;
+		el.ggDy=10;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_image ";
 		el.ggType='image';
 		hs ='';
-		hs+='height : 190px;';
-		hs+='left : calc(50% - ((190px + 0px) / 2) - 10px);';
+		hs+='height : 150px;';
+		hs+='left : calc(50% - ((100px + 0px) / 2) - 10px);';
 		hs+='position : absolute;';
-		hs+='top : calc(50% - ((190px + 0px) / 2) + 0px);';
+		hs+='top : calc(50% - ((150px + 0px) / 2) + 10px);';
 		hs+='visibility : inherit;';
-		hs+='width : 190px;';
+		hs+='width : 100px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -74456,24 +74444,24 @@ me._map_pin_active.style.transform=hs; });
 				me._product_image32.ggCurrentLogicStateSize = newLogicStateSize;
 				me._product_image32.style.transition='width 0s, height 0s';
 				if (me._product_image32.ggCurrentLogicStateSize == 0) {
-					me._product_image32.style.width='300px';
-					me._product_image32.style.height='300px';
-					me._product_image32.style.left = 'calc(50% - (300px / 2) - (0px / 2) + -10px)';
-					me._product_image32.style.top = 'calc(50% - (300px / 2))';
+					me._product_image32.style.width='200px';
+					me._product_image32.style.height='250px';
+					me._product_image32.style.left = 'calc(50% - (200px / 2) - (0px / 2) + -10px)';
+					me._product_image32.style.top = 'calc(50% - (250px / 2) - (0px / 2) + 10px)';
 					skin.updateSize(me._product_image32);
 				}
 				else if (me._product_image32.ggCurrentLogicStateSize == 1) {
-					me._product_image32.style.width='190px';
-					me._product_image32.style.height='190px';
-					me._product_image32.style.left = 'calc(50% - (190px / 2) - (0px / 2) + -10px)';
-					me._product_image32.style.top = 'calc(50% - (190px / 2))';
+					me._product_image32.style.width='100px';
+					me._product_image32.style.height='150px';
+					me._product_image32.style.left = 'calc(50% - (100px / 2) - (0px / 2) + -10px)';
+					me._product_image32.style.top = 'calc(50% - (150px / 2) - (0px / 2) + 10px)';
 					skin.updateSize(me._product_image32);
 				}
 				else {
-					me._product_image32.style.width='190px';
-					me._product_image32.style.height='190px';
-					me._product_image32.style.left = 'calc(50% - (190px / 2) - (0px / 2) + -10px)';
-					me._product_image32.style.top = 'calc(50% - (190px / 2))';
+					me._product_image32.style.width='100px';
+					me._product_image32.style.height='150px';
+					me._product_image32.style.left = 'calc(50% - (100px / 2) - (0px / 2) + -10px)';
+					me._product_image32.style.top = 'calc(50% - (150px / 2) - (0px / 2) + 10px)';
 					skin.updateSize(me._product_image32);
 				}
 			}
@@ -75078,11 +75066,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._powder_sink.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['powder_sink']=false;
 			me._info_ob33.logicBlock_scaling();
 			me._info_cb33.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._powder_sink.ggUpdatePosition=function (useTransition) {
 		}
@@ -76050,11 +76038,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._pantry_sink.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['pantry_sink']=false;
 			me._info_ob34.logicBlock_scaling();
 			me._info_cb34.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._pantry_sink.ggUpdatePosition=function (useTransition) {
 		}
@@ -77022,11 +77010,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._pantry_tap.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['pantry_tap']=false;
 			me._info_ob35.logicBlock_scaling();
 			me._info_cb35.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._pantry_tap.ggUpdatePosition=function (useTransition) {
 		}
@@ -77994,11 +77982,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._kitchen_lighhts.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['kitchen_lighhts']=false;
 			me._info_ob36.logicBlock_scaling();
 			me._info_cb36.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._kitchen_lighhts.ggUpdatePosition=function (useTransition) {
 		}
@@ -78972,11 +78960,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._kitchen_dishwasher.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['kitchen_dishwasher']=false;
 			me._info_ob37.logicBlock_scaling();
 			me._info_cb37.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._kitchen_dishwasher.ggUpdatePosition=function (useTransition) {
 		}
@@ -79950,11 +79938,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._kitchen_hood.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['kitchen_hood']=false;
 			me._info_ob38.logicBlock_scaling();
 			me._info_cb38.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._kitchen_hood.ggUpdatePosition=function (useTransition) {
 		}
@@ -80928,11 +80916,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._kitchen_sink.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['kitchen_sink']=false;
 			me._info_ob39.logicBlock_scaling();
 			me._info_cb39.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._kitchen_sink.ggUpdatePosition=function (useTransition) {
 		}
@@ -81900,11 +81888,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._kitchen_tap.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['kitchen_tap']=false;
 			me._info_ob40.logicBlock_scaling();
 			me._info_cb40.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._kitchen_tap.ggUpdatePosition=function (useTransition) {
 		}
@@ -82872,11 +82860,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._dining_light.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['dining_light']=false;
 			me._info_ob41.logicBlock_scaling();
 			me._info_cb41.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._dining_light.ggUpdatePosition=function (useTransition) {
 		}
@@ -83850,11 +83838,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._living_fan.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['living_fan']=false;
 			me._info_ob42.logicBlock_scaling();
 			me._info_cb42.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._living_fan.ggUpdatePosition=function (useTransition) {
 		}
@@ -84828,11 +84816,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._bar_wine_cellar.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['bar_wine_cellar']=false;
 			me._info_ob43.logicBlock_scaling();
 			me._info_cb43.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._bar_wine_cellar.ggUpdatePosition=function (useTransition) {
 		}
@@ -85806,11 +85794,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._bar_icemaker.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['bar_icemaker']=false;
 			me._info_ob44.logicBlock_scaling();
 			me._info_cb44.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._bar_icemaker.ggUpdatePosition=function (useTransition) {
 		}
@@ -86784,11 +86772,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._bar_sink.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['bar_sink']=false;
 			me._info_ob45.logicBlock_scaling();
 			me._info_cb45.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._bar_sink.ggUpdatePosition=function (useTransition) {
 		}
@@ -87756,11 +87744,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._bar_faucet.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['bar_faucet']=false;
 			me._info_ob46.logicBlock_scaling();
 			me._info_cb46.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._bar_faucet.ggUpdatePosition=function (useTransition) {
 		}
@@ -88728,11 +88716,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._bath2_light.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['bath2_light']=false;
 			me._info_ob47.logicBlock_scaling();
 			me._info_cb47.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._bath2_light.ggUpdatePosition=function (useTransition) {
 		}
@@ -89706,11 +89694,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._bath2_tap.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['bath2_tap']=false;
 			me._info_ob48.logicBlock_scaling();
 			me._info_cb48.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._bath2_tap.ggUpdatePosition=function (useTransition) {
 		}
@@ -90678,11 +90666,11 @@ me._map_pin_active.style.transform=hs; });
 			player.triggerEvent('hsproxyover', {'id': me.hotspot.id, 'url': me.hotspot.url});
 		}
 		me._white_bathroom_sink.onmouseleave=function (e) {
+			player.setActiveHotspot(null);
 			me.elementMouseOver['white_bathroom_sink']=false;
 			me._info_ob49.logicBlock_scaling();
 			me._info_cb49.logicBlock_scaling();
 			player.triggerEvent('hsproxyout', {'id': me.hotspot.id, 'url': me.hotspot.url});
-			player.setActiveHotspot(null);
 		}
 		me._white_bathroom_sink.ggUpdatePosition=function (useTransition) {
 		}
